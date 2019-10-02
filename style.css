@@ -73,8 +73,4 @@ footer{
 	color: #fff;
 	text-decoration: none;
 }
-@media screen and (min-width: 600px) {
-  #msgBox {
-width:90%;
-  }
-}
+
