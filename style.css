@@ -30,12 +30,14 @@ h2{
 	padding: 4px;
 	height: 25px;
 	margin-top: 10px;
-	margin-bottom: 5px;	
+	margin-bottom: 5px;
+	
 }
 #name,#email,#msg{
 	background: #f0f0f5;
 	border-color: transparent;
 	transition: 1s;
+	outline:none;
 }
 #name:focus,#email:focus,#msg:focus{
 	border-bottom: 2px solid dodgerblue;
