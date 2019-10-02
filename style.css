@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #ccc;
+}
+h2{
+	margin-bottom: 0px;
+	margin-top: 0;
+	font-family: 'Grenze', serif;
+}
+.p{
+	margin-top: 0px;
+	font-family: cursive;
+}
+#msgBox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 10px 5px rgba(0,0,0,0.5);
+}
+
+#name,#email{
+	display: block;
+	width: 240px;
+	padding: 4px;
+	height: 25px;
+	margin-top: 10px;
+	margin-bottom: 5px;	
+}
+#name,#email,#msg{
+	background: #f0f0f5;
+	border-color: transparent;
+	transition: 1s;
+}
+#name:focus,#email:focus,#msg:focus{
+	border-bottom: 2px solid dodgerblue;
+}
+#msg{
+	display: block;
+	width: 245px;
+	height: 100px;
+	resize: none;
+	margin-bottom: 10px;
+}
+#btn{
+	width: 245px;
+	padding:8px;
+	cursor: pointer;
+	border: none;
+	background: #0059b3;
+	color: #fff;
+	font-family: cursive;
+	
+}
+footer{
+	position: absolute;
+	bottom: 0px;
+	background:#000;
+	width: 100%;
+	font-family: cursive;
+	text-align: center;
+	padding: 5px;
+	color: #fff;
+}
+.fab{
+	color: #fff;
+	text-decoration: none;
+}
